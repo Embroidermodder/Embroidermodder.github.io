@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>embroidermodder2</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <filterSection>
+        <toc>
+            <section title="Welcome" ref="doc-index.html">
+                <section title="Contribute"          ref="doc-index.html#anchor-contribute"></section>
+                <section title="Beginners"           ref="doc-index.html#anchor-beginners"></section>
+                <section title="Table of Contents"   ref="doc-index.html#anchor-toc"></section>
+                <section title="Accessing Help"      ref="doc-welcome-help.html"></section>
+                <section title="System Requirements" ref="doc-welcome-sysreq.html"></section>
+            </section>
+            <section title="User Interface" ref="doc-interface.html">
+                <section title="Menus"          ref="doc-interface-menus.html"></section>
+                <section title="Toolbars"       ref="doc-interface-toolbars.html"></section>
+                <section title="Graphics View"  ref="doc-interface-view.html"></section>
+                <section title="Command Prompt" ref="doc-interface-prompt.html"></section>
+                <section title="Status Bar"     ref="doc-interface-statusbar.html"></section>
+            </section>
+            <section title="Getting Started" ref="doc-getstarted.html">
+                <section title="File Operations"   ref="doc-getstarted-files.html"></section>
+                <section title="Environment Setup" ref="doc-getstarted-setup.html"></section>
+            </section>
+            <section title="Terminology" ref="doc-terminology.html">
+                <section title="CAD Terminology"        ref="doc-terminology-cad.html"></section>
+                <section title="CAM Terminology"        ref="doc-terminology-cam.html"></section>
+                <section title="Embroidery Terminology" ref="doc-terminology-emb.html"></section>
+            </section>
+            <section title="Tutorials" ref="doc-tutorial.html">
+                <section title="Hello World"  ref="doc-tutorial-hello.html"></section>
+                <section title="Seeing Stars" ref="doc-tutorial-stars.html"></section>
+            </section>
+            <section title="Command Reference" ref="doc-commands.html">
+                <section title="Commands in Alphabetical Order" ref="doc-commands-alphabetical.html">
+                    <section title="# Commands" ref="doc-commands-alphabetical.html#anchor-number"></section>
+                    <section title="A Commands" ref="doc-commands-alphabetical.html#anchor-a"></section>
+                    <section title="B Commands" ref="doc-commands-alphabetical.html#anchor-b"></section>
+                    <section title="C Commands" ref="doc-commands-alphabetical.html#anchor-c"></section>
+                    <section title="D Commands" ref="doc-commands-alphabetical.html#anchor-d"></section>
+                    <section title="E Commands" ref="doc-commands-alphabetical.html#anchor-e"></section>
+                    <section title="F Commands" ref="doc-commands-alphabetical.html#anchor-f"></section>
+                    <section title="G Commands" ref="doc-commands-alphabetical.html#anchor-g"></section>
+                    <section title="H Commands" ref="doc-commands-alphabetical.html#anchor-h"></section>
+                    <section title="I Commands" ref="doc-commands-alphabetical.html#anchor-i"></section>
+                    <section title="J Commands" ref="doc-commands-alphabetical.html#anchor-j"></section>
+                    <section title="K Commands" ref="doc-commands-alphabetical.html#anchor-k"></section>
+                    <section title="L Commands" ref="doc-commands-alphabetical.html#anchor-l"></section>
+                    <section title="M Commands" ref="doc-commands-alphabetical.html#anchor-m"></section>
+                    <section title="N Commands" ref="doc-commands-alphabetical.html#anchor-n"></section>
+                    <section title="O Commands" ref="doc-commands-alphabetical.html#anchor-o"></section>
+                    <section title="P Commands" ref="doc-commands-alphabetical.html#anchor-p"></section>
+                    <section title="Q Commands" ref="doc-commands-alphabetical.html#anchor-q"></section>
+                    <section title="R Commands" ref="doc-commands-alphabetical.html#anchor-r"></section>
+                    <section title="S Commands" ref="doc-commands-alphabetical.html#anchor-s"></section>
+                    <section title="T Commands" ref="doc-commands-alphabetical.html#anchor-t"></section>
+                    <section title="U Commands" ref="doc-commands-alphabetical.html#anchor-u"></section>
+                    <section title="V Commands" ref="doc-commands-alphabetical.html#anchor-v"></section>
+                    <section title="W Commands" ref="doc-commands-alphabetical.html#anchor-w"></section>
+                    <section title="X Commands" ref="doc-commands-alphabetical.html#anchor-x"></section>
+                    <section title="Y Commands" ref="doc-commands-alphabetical.html#anchor-y"></section>
+                    <section title="Z Commands" ref="doc-commands-alphabetical.html#anchor-z"></section>
+                </section>
+                <section title="Commands by Menu Order" ref="doc-commands-menu.html">
+                    <section title="Menu File"      ref="doc-commands-menu.html#anchor-file"></section>
+                    <section title="Menu Edit"      ref="doc-commands-menu.html#anchor-edit"></section>
+                    <section title="Menu View"      ref="doc-commands-menu.html#anchor-view"></section>
+                    <section title="Menu Tools"     ref="doc-commands-menu.html#anchor-tools"></section>
+                    <section title="Menu Dimension" ref="doc-commands-menu.html#anchor-dimension"></section>
+                    <section title="Menu Settings"  ref="doc-commands-menu.html#anchor-settings"></section>
+                    <section title="Menu Window"    ref="doc-commands-menu.html#anchor-window"></section>
+                    <section title="Menu Help"      ref="doc-commands-menu.html#anchor-help"></section>
+                </section>
+            </section>
+            <section title="Keyboard Reference" ref="doc-keyboard.html">
+                <section title="Essential Keys" ref="doc-keyboard.html#anchor-essentials"></section>
+                <section title="Function Keys"  ref="doc-keyboard.html#anchor-fkeys"></section>
+                <section title="Shortcuts"      ref="doc-keyboard.html#anchor-shortcuts"></section>
+            </section>
+        </toc>
+        <keywords>
+            <!-- Welcome Section -->
+            <keyword name="Welcome"             ref="doc-index.html"/>
+            <keyword name="Contribute"          ref="doc-index.html#anchor-contribute"/>
+            <keyword name="Beginners"           ref="doc-index.html#anchor-beginners"/>
+            <keyword name="Table of Contents"   ref="doc-index.html#anchor-toc"/>
+            <keyword name="Accessing Help"      ref="doc-welcome-help.html"/>
+            <keyword name="System Requirements" ref="doc-welcome-sysreq.html"/>
+            <!-- User Interface Section -->
+            <keyword name="User Interface" ref="doc-interface.html"/>
+            <keyword name="Menus"          ref="doc-interface-menus.html"/>
+            <keyword name="Toolbars"       ref="doc-interface-toolbars.html"/>
+            <keyword name="Graphics View"  ref="doc-interface-view.html"/>
+            <keyword name="Command Prompt" ref="doc-interface-prompt.html"/>
+            <keyword name="Status Bar"     ref="doc-interface-statusbar.html"/>
+            <!-- Getting Started Section -->
+            <keyword name="Getting Started"   ref="doc-getstarted.html"/>
+            <keyword name="File Operations"   ref="doc-getstarted-files.html"/>
+            <keyword name="Environment Setup" ref="doc-getstarted-setup.html"/>
+            <!-- Terminology Section -->
+            <keyword name="Terminology"            ref="doc-terminology.html"/>
+            <keyword name="CAD Terminology"        ref="doc-terminology-cad.html"/>
+            <keyword name="Embroidery Terminology" ref="doc-terminology-emb.html"/>
+            <!-- Tutorials Section -->
+            <keyword name="Tutorials"    ref="doc-tutorial.html"/>
+            <keyword name="Hello World"  ref="doc-tutorial-hello.html"/>
+            <keyword name="Seeing Stars" ref="doc-tutorial-stars.html"/>
+            <!-- Commands Reference Section -->
+            <keyword name="Command Reference" ref="doc-commands.html"/>
+            <!-- Commands Menus Section -->
+            <keyword name="File Menu"      ref="doc-commands-menu.html#anchor-file"/>
+            <keyword name="Edit Menu"      ref="doc-commands-menu.html#anchor-edit"/>
+            <keyword name="View Menu"      ref="doc-commands-menu.html#anchor-view"/>
+            <keyword name="Tools Menu"     ref="doc-commands-menu.html#anchor-tools"/>
+            <keyword name="Dimension Menu" ref="doc-commands-menu.html#anchor-dimension"/>
+            <keyword name="Settings Menu"  ref="doc-commands-menu.html#anchor-settings"/>
+            <keyword name="Window Menu"    ref="doc-commands-menu.html#anchor-window"/>
+            <keyword name="Help Menu"      ref="doc-commands-menu.html#anchor-help"/>
+            <!-- Commands Alphabetical Section -->
+            <keyword name="About Command"          ref="doc-command-about.html"/>
+            <keyword name="Arc Command"            ref="doc-command-arc.html"/>
+            <keyword name="Circle Command"         ref="doc-command-circle.html"/>
+            <keyword name="Distance Command"       ref="doc-command-distance.html"/>
+            <keyword name="Ellipse Command"        ref="doc-command-ellipse.html"/>
+            <keyword name="Erase Command"          ref="doc-command-erase.html"/>
+            <keyword name="Exit Command"           ref="doc-command-exit.html"/>
+            <keyword name="Help Command"           ref="doc-command-help.html"/>
+            <keyword name="Line Command"           ref="doc-command-line.html"/>
+            <keyword name="LocatePoint Command"    ref="doc-command-locatepoint.html"/>
+            <keyword name="Move Command"           ref="doc-command-move.html"/>
+            <keyword name="PanDown Command"        ref="doc-command-pandown.html"/>
+            <keyword name="PanLeft Command"        ref="doc-command-panleft.html"/>
+            <keyword name="PanRight Command"       ref="doc-command-panright.html"/>
+            <keyword name="PanUp Command"          ref="doc-command-panup.html"/>
+            <keyword name="Path Command"           ref="doc-command-path.html"/>
+            <keyword name="Platform Command"       ref="doc-command-platform.html"/>
+            <keyword name="Point Command"          ref="doc-command-point.html"/>
+            <keyword name="Polygon Command"        ref="doc-command-polygon.html"/>
+            <keyword name="Polyline Command"       ref="doc-command-polyline.html"/>
+            <keyword name="QuickLeader Command"    ref="doc-command-quickleader.html"/>
+            <keyword name="Rectangle Command"      ref="doc-command-rectangle.html"/>
+            <keyword name="Redo Command"           ref="doc-command-redo.html"/>
+            <keyword name="Rotate Command"         ref="doc-command-rotate.html"/>
+            <keyword name="SandBox Command"        ref="doc-command-sandbox.html"/>
+            <keyword name="Scale Command"          ref="doc-command-scale.html"/>
+            <keyword name="SelectAll Command"      ref="doc-command-selectall.html"/>
+            <keyword name="SingleLineText Command" ref="doc-command-singlelinetext.html"/>
+            <keyword name="Star Command"           ref="doc-command-star.html"/>
+            <keyword name="SysWindows Command"     ref="doc-command-syswindows.html"/>
+            <keyword name="TipOfTheDay Command"    ref="doc-command-tipoftheday.html"/>
+            <keyword name="Undo Command"           ref="doc-command-undo.html"/>
+            <keyword name="WindowCascade Command"  ref="doc-command-windowcascade.html"/>
+            <keyword name="WindowClose Command"    ref="doc-command-windowclose.html"/>
+            <keyword name="WindowCloseAll Command" ref="doc-command-windowcloseall.html"/>
+            <keyword name="WindowNext Command"     ref="doc-command-windownext.html"/>
+            <keyword name="WindowPrevious Command" ref="doc-command-windowprevious.html"/>
+            <keyword name="WindowTile Command"     ref="doc-command-windowtile.html"/>
+            <!-- Keyboard Reference Section -->
+            <keyword name="Keyboard Reference" ref="doc-keyboard.html"/>
+            <keyword name="Essential Keys"     ref="doc-keyboard.html#essentials"/>
+            <keyword name="Function Keys"      ref="doc-keyboard.html#fkeys"/>
+            <keyword name="Shortcuts"          ref="doc-keyboard.html#shortcuts"/>
+        </keywords>
+        <files>
+            <file>common.css</file>
+            <file>common.js</file>
+            <file>doc-*.html</file>
+            <file>images/*.png</file>
+            <file>images/icons/*.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

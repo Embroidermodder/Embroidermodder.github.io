@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QHelpCollectionProject version="1.0">
+    <assistant>
+        <title>Embroidermodder 2 Help</title>
+        <applicationIcon>favicon.png</applicationIcon>
+        <cacheDirectory>embroidermodder2/cache</cacheDirectory>
+        <homePage>qthelp://embroidermodder2/doc/doc-index.html</homePage>
+        <startPage>qthelp://embroidermodder2/doc/doc-index.html</startPage>
+        <aboutMenuText>
+            <text>About Help</text>
+        </aboutMenuText>
+        <aboutDialog>
+            <file>doc-about.txt</file>
+            <icon>images/icons/app.png</icon>
+        </aboutDialog>
+        <enableDocumentationManager>true</enableDocumentationManager>
+        <enableAddressBar>false</enableAddressBar>
+        <enableFilterFunctionality>false</enableFilterFunctionality>
+    </assistant>
+    <docFiles>
+        <generate>
+            <file>
+                <input>embroidermodder2.qhp</input>
+                <output>embroidermodder2.qch</output>
+            </file>
+        </generate>
+        <register>
+            <file>embroidermodder2.qch</file>
+        </register>
+    </docFiles>
+</QHelpCollectionProject>
