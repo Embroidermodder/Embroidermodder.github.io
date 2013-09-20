@@ -14,9 +14,17 @@
             <section title="User Interface" ref="doc-interface.html">
                 <section title="Menus"          ref="doc-interface-menus.html"></section>
                 <section title="Toolbars"       ref="doc-interface-toolbars.html"></section>
-                <section title="Graphics View"  ref="doc-interface-view.html"></section>
-                <section title="Command Prompt" ref="doc-interface-prompt.html"></section>
-                <section title="Status Bar"     ref="doc-interface-statusbar.html"></section>
+                <section title="Graphics View"  ref="doc-interface-view.html">
+                    <section title="Coordinate System" ref="doc-interface-view-coordsystem.html"></section>
+                    <section title="Crosshair"         ref="doc-interface-view-crosshair.html"></section>
+                    <section title="Selection Box"     ref="doc-interface-view-selectbox.html"></section>
+                    <section title="Grid"              ref="doc-interface-view-grid.html"></section>
+                    <section title="Ruler"             ref="doc-interface-view-ruler.html"></section>
+                </section>
+                <section title="Command Prompt"  ref="doc-interface-prompt.html"></section>
+                <section title="Property Editor" ref="doc-interface-propertyeditor.html"></section>
+                <section title="Undo History"    ref="doc-interface-undohistory.html"></section>
+                <section title="Status Bar"      ref="doc-interface-statusbar.html"></section>
             </section>
             <section title="Getting Started" ref="doc-getstarted.html">
                 <section title="File Operations"   ref="doc-getstarted-files.html"></section>
@@ -30,6 +38,18 @@
             <section title="Tutorials" ref="doc-tutorial.html">
                 <section title="Hello World"  ref="doc-tutorial-hello.html"></section>
                 <section title="Seeing Stars" ref="doc-tutorial-stars.html"></section>
+            </section>
+            <section title="Drawing Objects" ref="doc-draw.html">
+                <section title="Adding Circles"    ref="doc-command-circle.html"></section>
+                <section title="Adding Lines"      ref="doc-command-line.html"></section>
+                <section title="Adding Polygons"    ref="doc-command-polygon.html"></section>
+                <section title="Adding Polylines"    ref="doc-command-polyline.html"></section>
+                <section title="Adding Rectangles" ref="doc-command-rectangle.html"></section>
+            </section>
+            <section title="Modifying Objects" ref="doc-modify.html">
+                <section title="Moving Objects"   ref="doc-command-move.html"></section>
+                <section title="Rotating Objects" ref="doc-command-rotate.html"></section>
+                <section title="Scaling Objects"  ref="doc-command-scale.html"></section>
             </section>
             <section title="Command Reference" ref="doc-commands.html">
                 <section title="Commands in Alphabetical Order" ref="doc-commands-alphabetical.html">
@@ -93,6 +113,16 @@
             <keyword name="Graphics View"  ref="doc-interface-view.html"/>
             <keyword name="Command Prompt" ref="doc-interface-prompt.html"/>
             <keyword name="Status Bar"     ref="doc-interface-statusbar.html"/>
+            <!-- Graphics View Section -->
+            <keyword name="Coordinate System" ref="doc-interface-view-coordsystem.html"/>
+            <keyword name="Crosshair"         ref="doc-interface-view-crosshair.html"/>
+            <keyword name="Selection Box"     ref="doc-interface-view-selectbox.html"/>
+            <keyword name="Grid"              ref="doc-interface-view-grid.html"/>
+            <keyword name="Ruler"             ref="doc-interface-view-ruler.html"/>
+            <!-- Selection Box Section -->
+            <keyword name="PickAdd Mode"          ref="doc-interface-view-selectbox.html#anchor-pickadd"/>
+            <keyword name="PickNew Mode"          ref="doc-interface-view-selectbox.html#anchor-picknew"/>
+            <keyword name="Directional Selection" ref="doc-interface-view-selectbox.html#anchor-direction"/>
             <!-- Getting Started Section -->
             <keyword name="Getting Started"   ref="doc-getstarted.html"/>
             <keyword name="File Operations"   ref="doc-getstarted-files.html"/>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selection Box</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Embroidermodder Documentation"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="documentation, help, embroidery, stitching, quilting, sewing, cad, drafting, 10o, 100, art, bmc, bro, c, c++, cam, cnc, cnd, csv, dat, dem, dsb, dst, dsz, dxf, edr, emd, exp, exy, eys, fxy, gnc, gt, hus, inb, inf, jef, ksm, max, mit, new, ofm, pcd, pcm, pcq, pcs, pec, pel, pem, pes, phb, phc, plt, rgb, sew, shv, sst, stx, svg, t09, tap, thr, u00, u01, vip, vp3, xxx, zsk" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <link rel="stylesheet" href="common.css" type="text/css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <script type="text/javascript" src="common.js"></script>
+</head>
+
+<body>
+    <a name="anchor-top"></a>
+    <div id="header">
+        <a href="doc-index.html"><div id="headerCenter"><span>Embroidermodder Documentation</span></div></a>
+        <script type="text/javascript">borderSingle();</script>
+    </div>
+    <div id="container">
+        <script type="text/javascript">createMenu();</script>
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-selectbox"></a>Selection Box
+                </div>
+                <div class="content-filler">
+                    The selection box is used for selecting and deselecting objects in the view.
+                    There are two types of modes that can be used:
+                    <ul>
+                        <li><a href="#anchor-pickadd">PickAdd Mode</a><br/><span>Repeated use adds objects to the selection. (default mode)</span></li>
+                        <br/>
+                        <li><a href="#anchor-picknew">PickNew Mode</a><br/><span>Repeated use deselects any previously selected objects, selecting only the new objects.</span></li>
+                    </ul>
+                    <a href="#anchor-direction">Directional selection</a> is also provided for more advanced selecting of objects. It is not a mode and cannot be toggled off or disabled.
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-pickadd"></a>PickAdd Mode
+                </div>
+                <div class="content-filler">
+                    This is the default mode of the selection box.<br/>
+                    <ol>
+                        <li><span>When left clicking the mouse in the view, the selection box will appear.</span></li>
+                        <li><span>Moving the mouse will resize the selection box.</span></li>
+                        <li><span>By left clicking the mouse a second time, the selection box will select objects and then the selection box will disappear.</span></li>
+                        <li><span>To add more objects to the selection, repeat this procedure.</span></li>
+                    </ol>
+                    To deselect indivual or multiple objects, hold down shift while making the selection box.<br/>
+                    To deselect all objects press the Escape Key.<br/>
+                    <br/>
+                    <script type="text/javascript">anchorLinkTop();</script>
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-picknew"></a>PickNew Mode
+                </div>
+                <div class="content-filler">
+                    To switch to this mode, click the PickAdd button in the top-right corner of the property editor.
+                    Clicking the button again will switch back to PickAdd mode.<br/>
+                    <ol>
+                        <li><span>When left clicking the mouse in the view, the selection box will appear.</span></li>
+                        <li><span>Moving the mouse will resize the selection box.</span></li>
+                        <li><span>By left clicking the mouse a second time, the selection box will deselect any previously selected objects, selecting only the new objects and then the selection box will disappear.</span></li>
+                        <li><span>To add more objects to the selection, repeat this procedure.</span></li>
+                    </ol>
+                    To add more objects to the selection while in PickNew mode, hold down shift while making the selection box.<br/>
+                    To deselect all objects press the Escape Key.<br/>
+                    <br/>
+                    <script type="text/javascript">anchorLinkTop();</script>
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-direction"></a>Directional Selection
+                </div>
+                <div class="content-filler">
+                    When the selection box is active, moving the box to the right or left of the inital pick point will change the color of the selection box.
+                    This change in color is significant and the selection box operates differently depending on the direction.<br/>
+                    <ul>
+                        <li><span>If the x-coordinate of the second point picked is to the right of the first pick point,
+                        it will select any objects contained inside the box. This is called a <b><i>Window</i></b> selection.</span></li>
+                        <li><span>If the x-coordinate of the second point picked is to the left of the first pick point,
+                        it will select any objects contained inside the box as well as any objects that are intersecting the box.
+                        This is called a <b><i>Crossing</i></b> selection.</span></li>
+                    </ul>
+                    Selecting a text object by <b><i>Window</i></b>:<br/>
+                    <a href="images/doc-selectbox-1.png"><img class="img" src="images/doc-selectbox-1.png"></a><br/>
+                    <br/>
+                    Selecting a text object by <b><i>Crossing</i></b>:<br/>
+                    <a href="images/doc-selectbox-2.png"><img class="img" src="images/doc-selectbox-2.png"></a><br/>
+                    <br/>
+                    The default colors used for the selection box are blue and green as shown in the pictures above. These may be changed under Settings:<br/>
+                    <ul>
+                        <li><span>Selection Box Color (Crossing)</span></li>
+                        <li><span>Selection Box Fill (Crossing)</span></li>
+                        <li><span>Selection Box Color (Window)</span></li>
+                        <li><span>Selection Box Fill (Window)</span></li>
+                        <li><span>Selection Box Fill Alpha</span></li>
+                    </ul>
+                    <script type="text/javascript">anchorLinkTop();</script>
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <div id="footer">
+            <div id="footerCenter"><span>Copyright 2013 Embroidermodder</span></div>
+            <script type="text/javascript">borderSingle();</script>
+        </div>
+    </div>
+</body>
+</html>
