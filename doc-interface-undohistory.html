@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a name="anchor-top"></a>
     <div id="header">
         <a href="doc-index.html"><div id="headerCenter"><span>Embroidermodder Documentation</span></div></a>
         <script type="text/javascript">borderSingle();</script>
@@ -25,22 +26,90 @@
         <div class="content">
             <div class="contentCenter">
                 <div class="content-header">
-                    <a name="anchor-history"></a>Undo History Placeholder
+                    <a name="anchor-history"></a>Undo History
                 </div>
                 <div class="content-filler">
-                    This page is a placeholder. Use it as a template for creating new documentation pages.
-                    When adding new documentation sections to this page, keep the html comments "DOCUMENTATION START" and "DOCUMENTATION END" in tact.<br/>
-                    <ol>
-                        <li><span>Copy this file and rename it appropriately, using the existing naming conventions.</span></li>
-                        <li><span>Edit the title of the page to be short and to the point.</span></li>
-                        <li><span>Edit the anchor names.</span></li>
-                        <li><span>Edit the content headers.</span></li>
-                        <li><span>Edit the content fillers.</span></li>
-                        <li><span>Use spans in lists so the text and bullets are properly styled.</span></li>
-                        <li><span>Test in multiple web browsers. IE, Firefox, Chrome, Opera, Konqueror, etc...</span></li>
-                        <li><span>Double check that you completed all the items in this list.</span></li>
-                        <li><span>Submit changes to the documentation to <a href="mailto:embroidermodder@gmail.com">us</a> or open a pull request.</span></li>
-                    </ol>
+                    Also referred to as just 'History', it is a dockable widget and it resides in either the left or right dockable widget areas, next to the toolbars.
+                    It keeps track of every object that is added or deleted.
+                    It keeps track of modifications to the objects, such as moving, rotating and scaling objects.
+                    It also keeps track of navigating the view by panning (with the middle mouse button) or zooming (with the mouse wheel).
+                    When keeping track of the navigation, it only keeps track of the initial and final destinations.
+                    If you zoom in/out or pan multiple times in this process, only one entry for navigation will appear in the history.
+                    This eliminates the tedious undo process that plagues some applications.<br/>
+                </div>
+                <div class="content-header">
+                    <a name="anchor-showhide"></a>Showing and Hiding the History
+                </div>
+                <div class="content-filler">
+                    To show or hide the history, you can right click in the menu bar area or in the toolbar areas and a context menu will appear.
+                    Check or uncheck the name 'History' listed in the context menu to show and hide it.
+                    The history can also be hidden by clicking the 'X' button in the top corner of the history widget.<br/>
+                </div>
+                <div class="content-header">
+                    <a name="anchor-docking"></a>Docking and Undocking the History
+                </div>
+                <div class="content-filler">
+                    To undock the history, click on the title and drag it with your mouse.
+                    This will pop the widget out of its current position and make it into a floating window.
+                    You can position this window to your liking virtually anywhere on the screen.
+                    To redock the widget, just drag and drop it with the titlebar to the right or left dockable widget area and it will dock itself.
+                    The history can also be docked or undocked by clicking the 'diamond' button in the top corner of the history widget.<br/>
+                    <br/>
+                    <script type="text/javascript">anchorLinkTop();</script>
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-undoredo"></a>Undoing and Redoing
+                </div>
+                <div class="content-filler">
+                    The history is populated with new entries as you add and manipulate objects in the view.
+                    The most recent entries appear below previous entries.
+                    You can move backwards and forwards in time by selecting individual entries in the history.<br/>
+                    <br/>
+                    When undoing a particular action using the history, the entries are not cleared until you perform another action.
+                    By clicking and dragging along the entries, you will visually see the view update to that particular point in time.<br/>
+                    <br/>
+                    Typing 'U', 'UNDO' or 'REDO' into the command prompt, will also step forward or backwards through the undo history.<br/>
+                    You may also use the system standard keyboard shortcut for undo (Ctrl+Z) and redo (Ctrl+Y or Ctrl+Shift+Z).
+                    The shortcuts for undo/redo may vary depending on your operating system.<br/>
+                    <br/>
+                    There is no limit to how many actions you can undo, but you cannot go back any further than when the file was opened.<br/>
+                    <br/>
+                    <script type="text/javascript">anchorLinkTop();</script>
+                </div>
+            </div>
+            <script type="text/javascript">borderDouble();</script>
+        </div>
+        <script type="text/javascript">docEnd();</script>
+        <!-- DOCUMENTATION END -->
+        <!-- DOCUMENTATION START -->
+        <script type="text/javascript">docStart();</script>
+        <div class="content">
+            <div class="contentCenter">
+                <div class="content-header">
+                    <a name="anchor-screenshots"></a>Screenshots
+                </div>
+                <div class="content-filler">
+                    Below are several screenshots demonstrating the instructions presented on this page.<br/>
+                    <br/>
+                    The History docked in the left dockable widget area.
+                    <a href="images/doc-undohistory-1.png"><img class="img" src="images/doc-undohistory-1.png"></a><br/>
+                    <br/>
+                    The History undocked into a floating window.
+                    <a href="images/doc-undohistory-2.png"><img class="img" src="images/doc-undohistory-2.png"></a><br/>
+                    <br/>
+                    The History docked in the right dockable widget area.
+                    <a href="images/doc-undohistory-3.png"><img class="img" src="images/doc-undohistory-3.png"></a><br/>
+                    <br/>
+                    <script type="text/javascript">anchorLinkTop();</script>
                 </div>
             </div>
             <script type="text/javascript">borderDouble();</script>

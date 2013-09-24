@@ -36,8 +36,10 @@
                 <section title="Embroidery Terminology" ref="doc-terminology-emb.html"></section>
             </section>
             <section title="Tutorials" ref="doc-tutorial.html">
-                <section title="Hello World"  ref="doc-tutorial-hello.html"></section>
-                <section title="Seeing Stars" ref="doc-tutorial-stars.html"></section>
+                <section title="Hello World"   ref="doc-tutorial-hello.html"></section>
+                <section title="Seeing Stars"  ref="doc-tutorial-stars.html"></section>
+                <section title="Satin Star"    ref="doc-tutorial-satin.html"></section>
+                <section title="Mix and Match" ref="doc-tutorial-mix.html"></section>
             </section>
             <section title="Drawing Objects" ref="doc-draw.html">
                 <section title="Adding Circles"    ref="doc-command-circle.html"></section>
@@ -132,9 +134,11 @@
             <keyword name="CAD Terminology"        ref="doc-terminology-cad.html"/>
             <keyword name="Embroidery Terminology" ref="doc-terminology-emb.html"/>
             <!-- Tutorials Section -->
-            <keyword name="Tutorials"    ref="doc-tutorial.html"/>
-            <keyword name="Hello World"  ref="doc-tutorial-hello.html"/>
-            <keyword name="Seeing Stars" ref="doc-tutorial-stars.html"/>
+            <keyword name="Tutorials"     ref="doc-tutorial.html"/>
+            <keyword name="Hello World"   ref="doc-tutorial-hello.html"/>
+            <keyword name="Seeing Stars"  ref="doc-tutorial-stars.html"/>
+            <keyword name="Satin Star"    ref="doc-tutorial-satin.html"/>
+            <keyword name="Mix and Match" ref="doc-tutorial-mix.html"/>
             <!-- Commands Reference Section -->
             <keyword name="Command Reference" ref="doc-commands.html"/>
             <!-- Commands Menus Section -->
