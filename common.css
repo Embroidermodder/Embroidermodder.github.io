@@ -340,6 +340,39 @@ font-style:italic;
 font-size:24px;
 }
 
+#vote
+{
+float:left;
+position:relative;
+left:0;
+top:0;
+bottom:0;
+min-width:260px;
+min-height:340px;
+width:260px;
+margin-right:-260px;
+margin-top:240px;
+z-index:100;
+font-family:"Emberlike-Caps";
+font-style:italic;
+font-size:24px;
+}
+
+#voteBanner
+{
+color:transparent;
+background:black;
+background-image:url('images/vote.png');
+background-repeat:no-repeat;
+position:absolute;
+top:35px;
+bottom:35px;
+left:40px;
+right:40px;
+z-index:100;
+}
+#voteBanner span { margin-left:-1000px; }
+
 #menuDownNews:hover { background-image:url('images/menu-hover-news.png'); }
 #menuDownNews
 {
